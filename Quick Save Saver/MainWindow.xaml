@@ -1,0 +1,16 @@
+﻿<Window x:Class="Quick_Save_Saver.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        ResizeMode="CanMinimize"
+        xmlns:local="clr-namespace:Quick_Save_Saver"
+        mc:Ignorable="d"
+        Title="Quick Save Saver" Height="227" Width="304">
+    <Grid>
+        <Button x:Name="saveqcksve_btn" Content="Save Current Quicksave" Margin="0,75,0,0" VerticalAlignment="Top" Height="45" Click="saveqcksve_btn_Click"/>
+        <Button x:Name="load_btn" Content="Load Quicksave" Margin="0,125,0,0" VerticalAlignment="Top" Height="45" Click="load_btn_Click"/>
+        <Button x:Name="selecetsvgm_btn" Content="Select Your savegame.xml" Margin="0,25,0,0" VerticalAlignment="Top" Height="45" Click="selecetsvgm_btn_Click"/>
+
+    </Grid>
+</Window>
